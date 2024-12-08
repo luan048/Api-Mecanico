@@ -2,10 +2,10 @@ package com.company.apimecatico.servicos.models;
 
 public class ServiceModels {
     private Long id;
-    private String NomeServico;
-    private String DescricaoServico;
-    private String DataChegada;
-    private String DataPrevistaS;
+    private String nomeServico;
+    private String descricaoServico;
+    private String dataChegada;
+    private String dataPrevistaS;
 
     public Long getId() {
         return id;
@@ -16,34 +16,34 @@ public class ServiceModels {
     }
 
     public String getNomeServico() {
-        return NomeServico;
+        return nomeServico;
     }
 
     public void setNomeServico(String nomeServico) {
-        this.NomeServico = nomeServico;
+        this.nomeServico = nomeServico;
     }
 
     public String getDescricaoServico() {
-        return DescricaoServico;
+        return descricaoServico;
     }
 
     public void setDescricaoServico(String descricaoServico) {
-        this.DescricaoServico = descricaoServico;
+        this.descricaoServico = descricaoServico;
     }
 
     public String getDataChegada() {
-        return DataChegada;
+        return dataChegada;
     }
 
     public void setDataChegada(String data) {
-        this.DataChegada = data;
+        this.dataChegada = data;
     }
 
     public String getDataPrevistaS() {
-        return DataPrevistaS;
+        return dataPrevistaS;
     }
 
     public void setDataPrevistaS(String data) {
-        this.DataPrevistaS = data;
+        this.dataPrevistaS = data;
     }
 }
